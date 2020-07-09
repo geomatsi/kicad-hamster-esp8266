@@ -1,0 +1,398 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP-12F U?
+U 1 1 5F07A4C9
+P 5500 3300
+F 0 "U?" H 5900 4100 50  0000 C CNN
+F 1 "ESP-12F" H 5150 4100 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 5500 3300 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 5150 3400 50  0001 C CNN
+	1    5500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:MC34063AD U?
+U 1 1 5F07FBA5
+P 3400 5300
+F 0 "U?" H 3400 5770 50  0000 C CNN
+F 1 "MC34063AD" H 3400 5677 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3450 4850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 3900 5200 50  0001 C CNN
+	1    3400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLML5203 Q?
+U 1 1 5F08173D
+P 2100 5200
+F 0 "Q?" V 2445 5200 50  0000 C CNN
+F 1 "IRLML5203" V 2352 5200 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 5125 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d" H 2100 5200 50  0001 L CNN
+	1    2100 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5F08582E
+P 2500 5300
+F 0 "C?" H 2550 5400 50  0000 L CNN
+F 1 "CP_Small" H 2550 5200 50  0000 L CNN
+F 2 "" H 2500 5300 50  0001 C CNN
+F 3 "~" H 2500 5300 50  0001 C CNN
+	1    2500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F0862DC
+P 2900 5700
+F 0 "C?" H 2700 5600 50  0000 L CNN
+F 1 "C_Small" H 2950 5600 50  0000 L CNN
+F 2 "" H 2900 5700 50  0001 C CNN
+F 3 "~" H 2900 5700 50  0001 C CNN
+	1    2900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F088BE9
+P 3900 5800
+F 0 "R?" H 3750 5800 50  0000 L CNN
+F 1 "R_Small" H 3959 5754 50  0000 L CNN
+F 2 "" H 3900 5800 50  0001 C CNN
+F 3 "~" H 3900 5800 50  0001 C CNN
+	1    3900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F0898F1
+P 4100 5600
+F 0 "R?" V 4200 5600 50  0000 C CNN
+F 1 "R_Small" V 3950 5600 50  0000 C CNN
+F 2 "" H 4100 5600 50  0001 C CNN
+F 3 "~" H 4100 5600 50  0001 C CNN
+	1    4100 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F08A72E
+P 3900 4900
+F 0 "R?" H 3959 4947 50  0000 L CNN
+F 1 "R_Small" H 3959 4854 50  0000 L CNN
+F 2 "" H 3900 4900 50  0001 C CNN
+F 3 "~" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5F08B8A4
+P 4600 5800
+F 0 "C?" H 4689 5847 50  0000 L CNN
+F 1 "CP_Small" H 4689 5754 50  0000 L CNN
+F 2 "" H 4600 5800 50  0001 C CNN
+F 3 "~" H 4600 5800 50  0001 C CNN
+	1    4600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5818 D?
+U 1 1 5F08CE29
+P 4300 5850
+F 0 "D?" V 4253 5930 50  0000 L CNN
+F 1 "1N5818" V 4346 5930 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4300 5675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4300 5850 50  0001 C CNN
+	1    4300 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 5F08D897
+P 4450 5500
+F 0 "L?" V 4639 5500 50  0000 C CNN
+F 1 "L_Small" V 4546 5500 50  0000 C CNN
+F 2 "" H 4450 5500 50  0001 C CNN
+F 3 "~" H 4450 5500 50  0001 C CNN
+	1    4450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F094331
+P 2900 6100
+F 0 "#PWR?" H 2900 5850 50  0001 C CNN
+F 1 "GND" H 2905 5925 50  0000 C CNN
+F 2 "" H 2900 6100 50  0001 C CNN
+F 3 "" H 2900 6100 50  0001 C CNN
+	1    2900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F09536C
+P 3400 6100
+F 0 "#PWR?" H 3400 5850 50  0001 C CNN
+F 1 "GND" H 3405 5925 50  0000 C CNN
+F 2 "" H 3400 6100 50  0001 C CNN
+F 3 "" H 3400 6100 50  0001 C CNN
+	1    3400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0959F9
+P 3900 6100
+F 0 "#PWR?" H 3900 5850 50  0001 C CNN
+F 1 "GND" H 3905 5925 50  0000 C CNN
+F 2 "" H 3900 6100 50  0001 C CNN
+F 3 "" H 3900 6100 50  0001 C CNN
+	1    3900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0960B3
+P 4300 6100
+F 0 "#PWR?" H 4300 5850 50  0001 C CNN
+F 1 "GND" H 4305 5925 50  0000 C CNN
+F 2 "" H 4300 6100 50  0001 C CNN
+F 3 "" H 4300 6100 50  0001 C CNN
+	1    4300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F096C05
+P 4600 6100
+F 0 "#PWR?" H 4600 5850 50  0001 C CNN
+F 1 "GND" H 4605 5925 50  0000 C CNN
+F 2 "" H 4600 6100 50  0001 C CNN
+F 3 "" H 4600 6100 50  0001 C CNN
+	1    4600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F097B96
+P 2100 5500
+F 0 "#PWR?" H 2100 5250 50  0001 C CNN
+F 1 "GND" H 2105 5325 50  0000 C CNN
+F 2 "" H 2100 5500 50  0001 C CNN
+F 3 "" H 2100 5500 50  0001 C CNN
+	1    2100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F09889A
+P 2500 5500
+F 0 "#PWR?" H 2500 5250 50  0001 C CNN
+F 1 "GND" H 2505 5325 50  0000 C CNN
+F 2 "" H 2500 5500 50  0001 C CNN
+F 3 "" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F098E05
+P 1700 5500
+F 0 "#PWR?" H 1700 5250 50  0001 C CNN
+F 1 "GND" H 1705 5325 50  0000 C CNN
+F 2 "" H 1700 5500 50  0001 C CNN
+F 3 "" H 1700 5500 50  0001 C CNN
+	1    1700 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5100 2500 5100
+Wire Wire Line
+	2500 5200 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5100 2950 5100
+Wire Wire Line
+	2500 5400 2500 5500
+Wire Wire Line
+	2100 5400 2100 5500
+Wire Wire Line
+	2900 5600 2900 5500
+Wire Wire Line
+	2900 5500 3000 5500
+Wire Wire Line
+	2900 6100 2900 5800
+Wire Wire Line
+	3400 6100 3400 5800
+Wire Wire Line
+	3900 6100 3900 5900
+Wire Wire Line
+	4300 6100 4300 6000
+Wire Wire Line
+	4600 6100 4600 5900
+Wire Wire Line
+	3800 5600 3900 5600
+Wire Wire Line
+	3900 5700 3900 5600
+Connection ~ 3900 5600
+Wire Wire Line
+	3900 5600 4000 5600
+Wire Wire Line
+	3800 5500 4300 5500
+Wire Wire Line
+	4300 5700 4300 5500
+Connection ~ 4300 5500
+Wire Wire Line
+	4300 5500 4350 5500
+Wire Wire Line
+	4600 5500 4550 5500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F0A536A
+P 4850 5500
+F 0 "#PWR?" H 4850 5350 50  0001 C CNN
+F 1 "+3.3V" H 4865 5675 50  0000 C CNN
+F 2 "" H 4850 5500 50  0001 C CNN
+F 3 "" H 4850 5500 50  0001 C CNN
+	1    4850 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5600 4850 5500
+Wire Wire Line
+	4600 5700 4600 5600
+Wire Wire Line
+	4200 5600 4600 5600
+Connection ~ 4600 5600
+Wire Wire Line
+	4600 5600 4600 5500
+Wire Wire Line
+	4600 5600 4850 5600
+Wire Wire Line
+	3900 4800 3900 4700
+Wire Wire Line
+	3900 4700 2950 4700
+Wire Wire Line
+	2950 4700 2950 5100
+Connection ~ 2950 5100
+Wire Wire Line
+	2950 5100 3000 5100
+Wire Wire Line
+	3800 5100 3900 5100
+Wire Wire Line
+	3900 5100 3900 5000
+Wire Wire Line
+	3800 5200 3900 5200
+Wire Wire Line
+	3900 5200 3900 5100
+Connection ~ 3900 5100
+Wire Wire Line
+	3800 5300 3900 5300
+Wire Wire Line
+	3900 5300 3900 5200
+Connection ~ 3900 5200
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5F0AF495
+P 1500 5350
+F 0 "J?" H 1500 5100 50  0000 C CNN
+F 1 "Power Supply" H 1850 5300 50  0000 C CNN
+F 2 "" H 1500 5350 50  0001 C CNN
+F 3 "~" H 1500 5350 50  0001 C CNN
+	1    1500 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 5250 1700 5100
+Wire Wire Line
+	1700 5100 1900 5100
+Wire Wire Line
+	1700 5500 1700 5350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F0B53C2
+P 5500 2350
+F 0 "#PWR?" H 5500 2200 50  0001 C CNN
+F 1 "+3.3V" H 5500 2550 50  0000 C CNN
+F 2 "" H 5500 2350 50  0001 C CNN
+F 3 "" H 5500 2350 50  0001 C CNN
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0B6B23
+P 5500 4150
+F 0 "#PWR?" H 5500 3900 50  0001 C CNN
+F 1 "GND" H 5505 3975 50  0000 C CNN
+F 2 "" H 5500 4150 50  0001 C CNN
+F 3 "" H 5500 4150 50  0001 C CNN
+	1    5500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2500 5500 2350
+Wire Wire Line
+	5500 4150 5500 4000
+$Comp
+L Switch:SW_Reed SW?
+U 1 1 5F0BB0DF
+P 7350 3700
+F 0 "SW?" H 7350 3925 50  0000 C CNN
+F 1 "SW_Reed" H 7350 3832 50  0000 C CNN
+F 2 "" H 7350 3700 50  0001 C CNN
+F 3 "~" H 7350 3700 50  0001 C CNN
+	1    7350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW?
+U 1 1 5F0BBD95
+P 7350 3350
+F 0 "SW?" H 7350 3575 50  0000 C CNN
+F 1 "SW_Reed" H 7350 3482 50  0000 C CNN
+F 2 "" H 7350 3350 50  0001 C CNN
+F 3 "~" H 7350 3350 50  0001 C CNN
+	1    7350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW?
+U 1 1 5F0BC4C3
+P 7350 3000
+F 0 "SW?" H 7350 3225 50  0000 C CNN
+F 1 "SW_Reed" H 7350 3132 50  0000 C CNN
+F 2 "" H 7350 3000 50  0001 C CNN
+F 3 "~" H 7350 3000 50  0001 C CNN
+	1    7350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW?
+U 1 1 5F0BCC12
+P 7350 2650
+F 0 "SW?" H 7350 2875 50  0000 C CNN
+F 1 "SW_Reed" H 7350 2782 50  0000 C CNN
+F 2 "" H 7350 2650 50  0001 C CNN
+F 3 "~" H 7350 2650 50  0001 C CNN
+	1    7350 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
