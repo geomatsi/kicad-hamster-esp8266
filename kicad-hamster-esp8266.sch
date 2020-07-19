@@ -386,12 +386,12 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 5F0D8CB8
-P 4450 2500
-F 0 "R?" H 4500 2500 50  0000 L CNN
-F 1 "10k" V 4450 2450 31  0000 L CNN
-F 2 "" H 4450 2500 50  0001 C CNN
-F 3 "~" H 4450 2500 50  0001 C CNN
-	1    4450 2500
+P 4250 2500
+F 0 "R?" H 4300 2550 50  0000 L CNN
+F 1 "10k" V 4250 2450 31  0000 L CNN
+F 2 "" H 4250 2500 50  0001 C CNN
+F 3 "~" H 4250 2500 50  0001 C CNN
+	1    4250 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -472,18 +472,18 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F0F95D4
-P 4450 2300
-F 0 "#PWR?" H 4450 2150 50  0001 C CNN
-F 1 "+3V3" H 4465 2475 50  0000 C CNN
-F 2 "" H 4450 2300 50  0001 C CNN
-F 3 "" H 4450 2300 50  0001 C CNN
-	1    4450 2300
+P 4250 2300
+F 0 "#PWR?" H 4250 2150 50  0001 C CNN
+F 1 "+3V3" H 4265 2475 50  0000 C CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7100 2400 7100 2300
 Wire Wire Line
-	4450 2400 4450 2300
+	4250 2400 4250 2300
 $Comp
 L power:GND #PWR?
 U 1 1 5F1006B7
@@ -671,8 +671,6 @@ F 3 "" H 8200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 4050 7600 4150
-Wire Wire Line
 	6600 4050 7600 4050
 Wire Wire Line
 	6650 4000 7900 4000
@@ -680,8 +678,6 @@ Wire Wire Line
 	6700 3950 8200 3950
 Wire Wire Line
 	6750 3900 8500 3900
-Wire Wire Line
-	7600 4550 7600 4650
 Wire Wire Line
 	7600 4650 7900 4650
 Wire Wire Line
@@ -696,19 +692,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3450 7900 3550
 Wire Wire Line
-	8500 4150 8500 3900
-Wire Wire Line
-	8200 4150 8200 3950
-Wire Wire Line
-	7900 4150 7900 4000
-Wire Wire Line
-	8500 4650 8500 4550
-Wire Wire Line
 	8200 4650 8500 4650
-Wire Wire Line
-	8200 4650 8200 4550
-Wire Wire Line
-	7900 4550 7900 4650
 $Comp
 L Device:R_Small R?
 U 1 1 5F1388C7
@@ -741,50 +725,6 @@ F 2 "" H 7900 3450 50  0001 C CNN
 F 3 "" H 7900 3450 50  0001 C CNN
 	1    7900 3450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Reed SW?
-U 1 1 5F0BCC12
-P 7600 4350
-F 0 "SW?" V 7450 4200 50  0000 C CNN
-F 1 "SW_Reed" H 7600 4482 50  0001 C CNN
-F 2 "" H 7600 4350 50  0001 C CNN
-F 3 "~" H 7600 4350 50  0001 C CNN
-	1    7600 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Reed SW?
-U 1 1 5F0BC4C3
-P 7900 4350
-F 0 "SW?" V 7750 4200 50  0000 C CNN
-F 1 "SW_Reed" H 7900 4482 50  0001 C CNN
-F 2 "" H 7900 4350 50  0001 C CNN
-F 3 "~" H 7900 4350 50  0001 C CNN
-	1    7900 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Reed SW?
-U 1 1 5F0BBD95
-P 8200 4350
-F 0 "SW?" V 8050 4200 50  0000 C CNN
-F 1 "SW_Reed" H 8200 4482 50  0001 C CNN
-F 2 "" H 8200 4350 50  0001 C CNN
-F 3 "~" H 8200 4350 50  0001 C CNN
-	1    8200 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Reed SW?
-U 1 1 5F0BB0DF
-P 8500 4350
-F 0 "SW?" V 8350 4200 50  0000 C CNN
-F 1 "SW_Reed" H 8500 4482 50  0001 C CNN
-F 2 "" H 8500 4350 50  0001 C CNN
-F 3 "~" H 8500 4350 50  0001 C CNN
-	1    8500 4350
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Sensor_Temperature:LM75B U?
@@ -937,12 +877,12 @@ F 3 "https://static.chipdip.ru/lib/273/DOC005273190.pdf" H 3200 2900 50  0001 C 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 2700 4450 2700
+	3600 2700 4250 2700
 Wire Wire Line
-	4450 2600 4450 2700
-Connection ~ 4450 2700
+	4250 2600 4250 2700
+Connection ~ 4250 2700
 Wire Wire Line
-	4450 2700 4900 2700
+	4250 2700 4900 2700
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F1F7E63
@@ -1012,4 +952,119 @@ Wire Wire Line
 Wire Wire Line
 	6450 2900 6200 2900
 Connection ~ 6200 2900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F15AB4B
+P 4550 2300
+F 0 "#PWR?" H 4550 2150 50  0001 C CNN
+F 1 "+3.3V" H 4565 2475 50  0000 C CNN
+F 2 "" H 4550 2300 50  0001 C CNN
+F 3 "" H 4550 2300 50  0001 C CNN
+	1    4550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F15BB16
+P 4550 2500
+F 0 "R?" H 4600 2550 50  0000 L CNN
+F 1 "10k" V 4550 2450 31  0000 L CNN
+F 2 "" H 4550 2500 50  0001 C CNN
+F 3 "~" H 4550 2500 50  0001 C CNN
+	1    4550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R?
+U 1 1 5F15C60E
+P 4550 3350
+F 0 "R?" H 4600 3450 50  0000 L CNN
+F 1 "photo" V 4550 3300 31  0000 L CNN
+F 2 "" V 4600 3100 50  0001 L CNN
+F 3 "~" H 4550 3300 50  0001 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F15CF8C
+P 4550 3600
+F 0 "#PWR?" H 4550 3350 50  0001 C CNN
+F 1 "GND" H 4555 3425 50  0000 C CNN
+F 2 "" H 4550 3600 50  0001 C CNN
+F 3 "" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2300 4550 2400
+Wire Wire Line
+	4550 2600 4550 3100
+Wire Wire Line
+	4550 3500 4550 3600
+Wire Wire Line
+	4900 3100 4550 3100
+Connection ~ 4550 3100
+Wire Wire Line
+	4550 3100 4550 3200
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5F1A7DB1
+P 8700 4300
+F 0 "J?" H 8650 4400 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8780 4200 50  0001 L CNN
+F 2 "" H 8700 4300 50  0001 C CNN
+F 3 "~" H 8700 4300 50  0001 C CNN
+	1    8700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5F1A9503
+P 8400 4300
+F 0 "J?" H 8350 4400 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8480 4200 50  0001 L CNN
+F 2 "" H 8400 4300 50  0001 C CNN
+F 3 "~" H 8400 4300 50  0001 C CNN
+	1    8400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5F1AE8E4
+P 8100 4300
+F 0 "J?" H 8050 4400 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8180 4200 50  0001 L CNN
+F 2 "" H 8100 4300 50  0001 C CNN
+F 3 "~" H 8100 4300 50  0001 C CNN
+	1    8100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5F1AF1CC
+P 7800 4300
+F 0 "J?" H 7750 4400 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7880 4200 50  0001 L CNN
+F 2 "" H 7800 4300 50  0001 C CNN
+F 3 "~" H 7800 4300 50  0001 C CNN
+	1    7800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 4050 7600 4300
+Wire Wire Line
+	7600 4400 7600 4650
+Wire Wire Line
+	7900 4400 7900 4650
+Wire Wire Line
+	7900 4000 7900 4300
+Wire Wire Line
+	8200 4400 8200 4650
+Wire Wire Line
+	8200 3950 8200 4300
+Wire Wire Line
+	8500 4400 8500 4650
+Wire Wire Line
+	8500 3900 8500 4300
 $EndSCHEMATC
