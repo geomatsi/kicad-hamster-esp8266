@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 217)
     (zones 0)
     (modules 32)
@@ -2031,6 +2031,9 @@
     )
   )
 
+  (gr_text RESET (at 145.03 70.44) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_text "RX TX GND" (at 181.96 57.48) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
