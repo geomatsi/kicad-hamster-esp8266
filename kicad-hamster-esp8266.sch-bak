@@ -314,7 +314,7 @@ U 1 1 5F0AF495
 P 1500 5350
 F 0 "J1" H 1500 5100 50  0000 C CNN
 F 1 "Power Supply" H 1850 5300 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 1500 5350 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 1500 5350 50  0001 C CNN
 F 3 "~" H 1500 5350 50  0001 C CNN
 	1    1500 5350
 	-1   0    0    1   
@@ -738,17 +738,11 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 6900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 3100 6400 3100
-Wire Wire Line
-	6400 3100 6400 5000
-Wire Wire Line
 	6400 5200 6500 5200
 Wire Wire Line
 	6500 5300 6350 5300
 Wire Wire Line
 	6350 5300 6350 5200
-Wire Wire Line
-	6350 3200 6100 3200
 $Comp
 L power:GND #PWR0125
 U 1 1 5F14CEE6
@@ -842,14 +836,10 @@ F 3 "" H 5500 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6150 5000 6400 5000
-Connection ~ 6400 5000
 Wire Wire Line
 	6400 5000 6400 5200
 Wire Wire Line
 	6150 5200 6350 5200
-Connection ~ 6350 5200
-Wire Wire Line
-	6350 5200 6350 3200
 Wire Wire Line
 	5500 5050 5500 5200
 Wire Wire Line
@@ -1067,4 +1057,14 @@ Wire Wire Line
 	8500 4400 8500 4650
 Wire Wire Line
 	8500 3900 8500 4300
+Wire Wire Line
+	6100 3100 6350 3100
+Connection ~ 6350 5200
+Wire Wire Line
+	6350 3100 6350 5200
+Wire Wire Line
+	6100 3200 6400 3200
+Wire Wire Line
+	6400 3200 6400 5000
+Connection ~ 6400 5000
 $EndSCHEMATC

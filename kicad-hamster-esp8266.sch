@@ -314,7 +314,7 @@ U 1 1 5F0AF495
 P 1500 5350
 F 0 "J1" H 1500 5100 50  0000 C CNN
 F 1 "Power Supply" H 1850 5300 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 1500 5350 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 1500 5350 50  0001 C CNN
 F 3 "~" H 1500 5350 50  0001 C CNN
 	1    1500 5350
 	-1   0    0    1   
@@ -586,16 +586,12 @@ Wire Wire Line
 	6750 3300 6750 3900
 Wire Wire Line
 	6100 3300 6750 3300
-Connection ~ 8500 3900
 Wire Wire Line
 	8500 3900 8500 3750
-Connection ~ 8200 3950
 Wire Wire Line
 	8200 3950 8200 3750
-Connection ~ 7900 4000
 Wire Wire Line
 	7900 3750 7900 4000
-Connection ~ 7600 4050
 Wire Wire Line
 	7600 4050 7600 3750
 Wire Wire Line
@@ -677,22 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3950 8200 3950
 Wire Wire Line
-	6750 3900 8500 3900
-Wire Wire Line
-	7600 4650 7900 4650
-Wire Wire Line
-	8050 4650 8200 4650
-Connection ~ 8050 4650
-Wire Wire Line
-	8050 4800 8050 4650
-Connection ~ 8200 4650
-Connection ~ 7900 4650
-Wire Wire Line
-	7900 4650 8050 4650
-Wire Wire Line
 	7900 3450 7900 3550
-Wire Wire Line
-	8200 4650 8500 4650
 $Comp
 L Device:R_Small R15
 U 1 1 5F1388C7
@@ -707,12 +688,12 @@ $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 5F136815
-P 8050 4800
-F 0 "#PWR0123" H 8050 4550 50  0001 C CNN
-F 1 "GND" H 8055 4625 50  0000 C CNN
-F 2 "" H 8050 4800 50  0001 C CNN
-F 3 "" H 8050 4800 50  0001 C CNN
-	1    8050 4800
+P 8485 5330
+F 0 "#PWR0123" H 8485 5080 50  0001 C CNN
+F 1 "GND" H 8490 5155 50  0000 C CNN
+F 2 "" H 8485 5330 50  0001 C CNN
+F 3 "" H 8485 5330 50  0001 C CNN
+	1    8485 5330
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -997,66 +978,6 @@ Wire Wire Line
 Connection ~ 4550 3100
 Wire Wire Line
 	4550 3100 4550 3200
-$Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 5F1A7DB1
-P 8700 4300
-F 0 "J6" H 8650 4400 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 8780 4200 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 8700 4300 50  0001 C CNN
-F 3 "~" H 8700 4300 50  0001 C CNN
-	1    8700 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J5
-U 1 1 5F1A9503
-P 8400 4300
-F 0 "J5" H 8350 4400 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 8480 4200 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 8400 4300 50  0001 C CNN
-F 3 "~" H 8400 4300 50  0001 C CNN
-	1    8400 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J4
-U 1 1 5F1AE8E4
-P 8100 4300
-F 0 "J4" H 8050 4400 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 8180 4200 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 8100 4300 50  0001 C CNN
-F 3 "~" H 8100 4300 50  0001 C CNN
-	1    8100 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5F1AF1CC
-P 7800 4300
-F 0 "J3" H 7750 4400 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 7880 4200 50  0001 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 7800 4300 50  0001 C CNN
-F 3 "~" H 7800 4300 50  0001 C CNN
-	1    7800 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 4050 7600 4300
-Wire Wire Line
-	7600 4400 7600 4650
-Wire Wire Line
-	7900 4400 7900 4650
-Wire Wire Line
-	7900 4000 7900 4300
-Wire Wire Line
-	8200 4400 8200 4650
-Wire Wire Line
-	8200 3950 8200 4300
-Wire Wire Line
-	8500 4400 8500 4650
-Wire Wire Line
-	8500 3900 8500 4300
 Wire Wire Line
 	6100 3100 6350 3100
 Connection ~ 6350 5200
@@ -1067,4 +988,56 @@ Wire Wire Line
 Wire Wire Line
 	6400 3200 6400 5000
 Connection ~ 6400 5000
+$Comp
+L Connector:Screw_Terminal_01x08 J3
+U 1 1 5F20B454
+P 8850 4800
+F 0 "J3" H 8930 4793 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 8930 4700 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal" H 8850 4800 50  0001 C CNN
+F 3 "~" H 8850 4800 50  0001 C CNN
+	1    8850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3900 8500 3900
+Wire Wire Line
+	8500 3900 8500 4500
+Wire Wire Line
+	8500 4500 8650 4500
+Connection ~ 8500 3900
+Wire Wire Line
+	8650 4700 8200 4700
+Wire Wire Line
+	8200 4700 8200 3950
+Connection ~ 8200 3950
+Wire Wire Line
+	7900 4000 7900 4900
+Wire Wire Line
+	7900 4900 8650 4900
+Connection ~ 7900 4000
+Wire Wire Line
+	7600 4050 7600 5100
+Wire Wire Line
+	7600 5100 8650 5100
+Connection ~ 7600 4050
+Wire Wire Line
+	8485 5330 8485 5200
+Wire Wire Line
+	8485 4600 8650 4600
+Wire Wire Line
+	8650 4800 8485 4800
+Connection ~ 8485 4800
+Wire Wire Line
+	8485 4800 8485 4600
+Wire Wire Line
+	8650 5000 8485 5000
+Connection ~ 8485 5000
+Wire Wire Line
+	8485 5000 8485 4800
+Wire Wire Line
+	8650 5200 8485 5200
+Connection ~ 8485 5200
+Wire Wire Line
+	8485 5200 8485 5000
 $EndSCHEMATC
